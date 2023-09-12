@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>style</title>
+  <style>
+    body {
+      background-color: rgb(8, 3, 27);
+    }
+
+    @keyframes clickAnimation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="headerbox" style="background-color: hsl(242, 22%, 28%); height: 200px; padding-left: 50px;">
+    <img src="C:\Users\HP\Desktop\calculator\download (1).jpg" alt="logo8" class="image8 clickable" 
+    style="margin-left:440px;margin-top: 10px;width: 340px;cursor: pointer;" onclick="applyClickAnimation(this)">
+</div>
+  
+  <hr style="background-color: rgba(143, 143, 143, 0.651); width: 80;height: 20px;border: navajowhite;">
+
+  <img src="C:\Users\HP\Desktop\calculator\ef0d35_edce642edcac4ee49c025cb8ea32431b~mv2.webp" alt="logo14"
+  class="image14 clickable" style="margin-left:380px;margin-top:30px;cursor: pointer;" onclick="applyClickAnimation(this)">
+  
+  <img src="C:\Users\HP\Desktop\calculator\hqdefault.jpg" alt="logo14" class="image14 clickable"
+   style="margin-left: 378px;width: 600px; margin-top: 30px;cursor: pointer;" onclick="applyClickAnimation(this)">
+     
+  <img src="C:\Users\HP\Desktop\calculator\ef0d35_3ef9d710ba5c4bfcb4693d81c5e7a6f1~mv2.webp" alt="logo13" class="image13 clickable"
+  style="margin-left: 280px;margin-top: 40px;width: 800px;cursor: pointer;" onclick="applyClickAnimation(this)">
+  
+  <img src="C:\Users\HP\Desktop\calculator\unnamed (1).webp" alt="logo2" class="image2 clickable"
+  style="width: 600px; margin-left: 370px; padding-top: 40px;cursor: pointer;" onclick="applyClickAnimation(this)">
+  
+  <img src="C:\Users\HP\Desktop\calculator\unnamed (2).webp" alt="logo5" class="image5 clickable" 
+  style="margin-left: 210px; margin-top: 60px;width:900px;cursor: pointer;" onclick="applyClickAnimation(this)">
+  
+  <h1 style=" color: rgb(205, 221, 255);
+  margin-top: 20px; 
+  font-size: 23px;
+  text-align: center;">
+    Become a fashion stylist! Create outfits, play with makeup & hairstyle!
+       
+    <img src="C:\Users\HP\Desktop\calculator\dZkK6tkERIv6IWYnwEQ4WxBZYYjpTpSyv9dUV_4-LaHTi=s280.png"
+     alt="logo4" class="image4 clickable" style="border-radius: 200px; margin-left: 5px ; margin-top: 50px;width:300px;cursor: pointer;" onclick="applyClickAnimation(this)"></h1>
+
+     <h2 style="font-size: 20px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(102, 122, 128);"> fashion is about to become a lot more fun with SUITSME..</h2>
+
+  <script>
+  
+    function applyClickAnimation(element) {
+      element.style.animation = 'clickAnimation 0.5s ease-in-out';
+
+      setTimeout(function () {
+        element.style.animation = '';
+      }, 500);
+    }
+  </script>
+</body>
+</html>
